@@ -1,0 +1,9 @@
+#!/bin/bash
+echo 'Go to folder'
+cd ./src
+
+echo 'init Terraform'
+terraform init 
+
+echo 'apply Terraform'
+terraform apply out.terraform
